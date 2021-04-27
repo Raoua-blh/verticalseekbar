@@ -2,12 +2,13 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:gravity="center_vertical">
+
         <shape android:shape="rectangle">
             <solid android:color="#FFFFFF"/>
-<size android:height="50dp"/>
+<size android:height="180dp"/>
             <corners android:radius="20dp"/>
-            <stroke android:color="@color/teal_700"
-                android:width="3dp"/>
+            <stroke android:color="#DEDEDE"
+                  android:width="3dp"/>
 
 
         </shape>
@@ -20,7 +21,7 @@
             <selector>
                 <item>
                     <shape android:shape="rectangle">
-                        <solid android:color="@color/cardview_dark_background"/>
+                        <solid android:color="#FFEEC4"/>
                         <corners android:radius="20dp"></corners>
                     </shape>
                 </item>

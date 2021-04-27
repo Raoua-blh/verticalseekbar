@@ -19,21 +19,123 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.098" />
 
-    <SeekBar
-        android:id="@+id/seekbarr"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:max="100"
-        android:progress="0"
-        android:rotation="270"
-        android:indeterminate="false"
-        android:thumb="@drawable/thumb"
-        android:progressDrawable="@drawable/seekbar_bg"
-        android:padding="6dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="130dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/babybottle"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <SeekBar
+        android:id="@+id/seekbarr"
+        android:layout_width="344dp"
+        android:layout_height="459dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:padding="6dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/seekbar_bg"
+        android:rotation="270"
+        android:splitTrack="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="20dp"
+        android:layout_height="2dp"
+        android:background="#DEDEDE"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbarr"
+        app:layout_constraintEnd_toEndOf="@+id/seekbarr"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="@+id/seekbarr"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="14dp"
+        android:layout_height="3dp"
+        android:background="#DEDEDE"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbarr"
+        app:layout_constraintEnd_toEndOf="@+id/seekbarr"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="@+id/seekbarr"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="50dp"
+        android:layout_height="2dp"
+        android:background="#DEDEDE"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbarr"
+        app:layout_constraintEnd_toEndOf="@+id/seekbarr"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="@+id/seekbarr"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="20dp"
+        android:layout_height="2dp"
+        android:background="#DEDEDE"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbarr"
+        app:layout_constraintEnd_toEndOf="@+id/seekbarr"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="@+id/seekbarr"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="20dp"
+        android:layout_height="2dp"
+        android:background="#DEDEDE"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbarr"
+        app:layout_constraintEnd_toEndOf="@+id/seekbarr"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="@+id/seekbarr"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.416" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="20dp"
+        android:layout_height="2dp"
+        android:background="#DEDEDE"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbarr"
+        app:layout_constraintEnd_toEndOf="@+id/seekbarr"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="@+id/seekbarr"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.497" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="50dp"
+        android:layout_height="2dp"
+        android:background="#DEDEDE"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbarr"
+        app:layout_constraintEnd_toEndOf="@+id/seekbarr"
+        app:layout_constraintHorizontal_bias="0.721"
+        app:layout_constraintStart_toStartOf="@+id/seekbarr"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="20dp"
+        android:layout_height="2dp"
+        android:background="#DEDEDE"
+        app:layout_constraintBottom_toBottomOf="@+id/seekbarr"
+        app:layout_constraintEnd_toEndOf="@+id/seekbarr"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="@+id/seekbarr"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.655" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
